@@ -1,0 +1,16 @@
+# Environment and secrets
+.venv/
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# The case study brief is not ours to redistribute and is not needed to run
+data/FreightTiger_Intern_CaseStudy.pdf
