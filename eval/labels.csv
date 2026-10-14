@@ -1,0 +1,13 @@
+route,week_of,expected_flagged,expected_note_id,source,rationale
+Delhi-Jaipur,2024-11-11,Yes,,sample,Given in sample_output_format_v2.csv; no note covers Delhi-Jaipur in Nov 2024
+Ahmedabad-Mumbai,2025-01-20,No (justified),N002,sample,Given in sample; festival-week surcharge note for this route and week
+Mumbai-Pune,2025-09-15,Yes,,sample,Given in sample; N006 only says demand was stable
+Chennai-Bangalore,2025-02-24,No (justified),N001,hand,Flooding Feb 24 - Mar 8 2025 raised trip costs on this route
+Chennai-Bangalore,2025-03-03,No (justified),N001,hand,Week Mar 3-9 overlaps the flood (until Mar 8)
+Chennai-Bangalore,2025-03-10,Yes,,hand,Roads passable again by Mar 9 so N001 no longer applies; cost still +22% vs history
+Chennai-Bangalore,2025-03-17,Yes,,hand,N009 says the route was back to normal - not a reason for higher cost
+Delhi-Jaipur,2024-11-18,Yes,,hand,Still +27.6% vs history and no note for this route or period
+Mumbai-Delhi,2024-07-29,No,,hand,N005 maintenance week: note says costs not significantly affected and cost is normal
+Delhi-Chennai,2025-05-05,No,,hand,Diesel week: +6.2% fits N003's 5-7% and is below the flag threshold
+Ahmedabad-Mumbai,2025-01-27,No,,hand,Week after the festival: cost back below its average
+Mumbai-Pune,2025-12-22,Yes,,hand,Steady creep: +38.9% vs Delhi-Jaipur; diesel affects both routes so cannot explain the gap
