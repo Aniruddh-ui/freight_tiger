@@ -1,0 +1,15 @@
+{
+  "llm_mode": "groq",
+  "route_weeks": 728,
+  "model": "openai/gpt-oss-120b",
+  "llm_calls": 20,
+  "input_tokens": 5527,
+  "output_tokens": 2417,
+  "rejected_rewrites": 5,
+  "estimated_cost_usd": 0.002279,
+  "price_per_mtok_usd": [
+    0.15,
+    0.6
+  ],
+  "errors": []
+}

@@ -1,0 +1,13 @@
+{
+  "llm_mode": "off",
+  "route_weeks": 728,
+  "model": "none (LLM off)",
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "rejected_rewrites": 0,
+  "estimated_cost_usd": 0.0,
+  "price_per_mtok_usd": null,
+  "errors": [],
+  "note": "No LLM calls: verdicts, note matching and wording are deterministic. With --llm groq, one openai/gpt-oss-120b call is made per flagged or justified row to reword its reason."
+}
